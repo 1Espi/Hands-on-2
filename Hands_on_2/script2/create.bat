@@ -4,4 +4,5 @@ type mytext.txt
 mkdir backup
 copy mytext.txt backup\
 dir backup
-rmdir backup /s /q
+del backup\mytext.txt
+rmdir backup
